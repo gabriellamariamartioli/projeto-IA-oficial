@@ -6,41 +6,41 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "se você etivesse em uma padaria e desse vontade de comer um doce oque escolheria?",
+        enunciado: "Você sabe que a redes sociais podem causar ansiedae e depressão nos jovens?",
         alternativas: [
             {
-                texto: "doce!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Sim!",
+                afirmacao: "Isso é coisa séria, é preciso ter conciencia do que está sendo consumido na internet. "
             },
             {
-                texto: "salgado!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Quero saber!",
+                afirmacao: "Como iso está afetando a saude mental dos jovens?."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Com  o avanço da tecnologia os jovens estão cada vez mais ligados com as redes sociais, em quais fatores você acha que mais os afetam?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "A Busca por Validação e Comparação Social, as plataformas digitais incentivam os usuários a se engajarem com curtidas, comentários e compartilhamentos, criando um ciclo de autovalidação externa.",
+                afirmacao: "afirmação."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Distúrbios de Imagem Corporal, as redes sociais promovem um padrão de beleza que muitas vezes é irreconhecível e inalcançável.",
+                afirmacao: "afirmação."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Sobre a exposição de conteúdos negativos, o que você acha?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "O consumo constante de notícias, debates e postagens relacionadas a temas pesados, como violência, catástrofes e crises políticas, pode gerar uma sobrecarga emocional.",
+                afirmacao: "Afirmação."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Acho que depende do ponto de vista das pessoas, pois tanbem é importante se manter informado e saber da realidade no nosso mundo",
+                afirmacao: "Afirmação."
             }
         ]
     },
